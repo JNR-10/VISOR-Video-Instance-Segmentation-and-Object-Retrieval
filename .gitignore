@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+visor-env/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Env files
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Media & model artifacts (keep repo light)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Model weights (typical)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Caches
+.cache/
+tmp/
+
+# Development tools
+.qodo/

@@ -1,0 +1,70 @@
+# =========================================================
+# VISOR – Core Requirements
+# Python: 3.10.x
+# =========================================================
+
+# -------------------------
+# Web Backend (API)
+# -------------------------
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+pydantic==2.6.4
+python-multipart==0.0.9
+
+# -------------------------
+# Core ML / Deep Learning
+# -------------------------
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+
+# -------------------------
+# Computer Vision
+# -------------------------
+opencv-python==4.9.0.80
+Pillow==10.2.0
+numpy==1.26.4
+scipy==1.12.0
+
+# -------------------------
+# Detection / Segmentation
+# -------------------------
+ultralytics==8.1.29          # YOLOv8 (detection + tracking)
+segment-anything==1.0       # SAM (tap-based segmentation)
+
+# -------------------------
+# Embeddings / Retrieval
+# -------------------------
+transformers==4.38.2
+sentence-transformers==2.6.1
+timm==0.9.16
+faiss-cpu==1.7.4             # Vector similarity (CPU-safe)
+
+# -------------------------
+# OCR (Brand / Logo Text)
+# -------------------------
+easyocr==1.7.1
+pytesseract==0.3.10
+
+# -------------------------
+# Video / Media Processing
+# -------------------------
+ffmpeg-python==0.2.0
+imageio==2.34.0
+imageio-ffmpeg==0.4.9
+
+# -------------------------
+# Database / Caching
+# -------------------------
+sqlalchemy==2.0.27
+psycopg2-binary==2.9.9
+pgvector==0.2.4
+redis==5.0.1
+
+# -------------------------
+# Utilities
+# -------------------------
+requests==2.31.0
+tqdm==4.66.2
+loguru==0.7.2
+python-dotenv==1.0.1
