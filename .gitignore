@@ -1,54 +1,153 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 *.so
-*.egg-info/
-dist/
+.Python
 build/
-
-# Virtual environments
-.venv/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+backend/lib/
+backend/lib64/
+**/lib/python*/
+**/lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+*.mo
+*.pot
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+.env
+.venv
+env/
 venv/
 visor-env/
-env/
+ENV/
+env.bak/
+venv.bak/
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
 
-# OS / Editor
-.DS_Store
-Thumbs.db
-.vscode/
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+.vercel
+.turbo
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs
 .idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# VISOR Specific
+data/videos/*
+data/frames/*
+data/crops/*
+data/masks/*
+data/tracking/*
+data/temp_frames/*
+data/models/*
+backend/data/videos/*
+backend/data/frames/*
+backend/data/crops/*
+backend/data/masks/*
+backend/data/tracking/*
+!data/videos/.gitkeep
+!data/frames/.gitkeep
+!data/crops/.gitkeep
+!data/masks/.gitkeep
+!data/tracking/.gitkeep
+!data/models/.gitkeep
+!data/models/sam2_hiera_base_plus.pt
+!data/models/mobile_sam.pt
+backend/data/***
+data/crops
+data/frames
+data/masks
+data/tracking
+data/videos/**
+
+# ML Models (large files)
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.safetensors
+*.bin
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Database
+*.db
+*.sqlite
 
 # Logs
+logs/
 *.log
 
-# Env files
-.env
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Media & model artifacts (keep repo light)
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.wav
-*.png
-*.jpg
-*.jpeg
-*.webp
-
-# Model weights (typical)
-*.pt
-*.pth
-*.onnx
-*.engine
-
-# Caches
-.cache/
-tmp/
-
-# Development tools
-.qodo/
+# OS
+Thumbs.db
+.DS_Store
